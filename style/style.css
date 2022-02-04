@@ -177,14 +177,17 @@ text-decoration: none;
     }
 
 .item-visit:nth-child(2):hover{
-    color:white;
+    /* color:white; */
     background: #3040C4;
     transition: 1s;
 }
 
+.text-entertain:hover{
+    color:white;
+}
+
 .item-visit > img{
     margin: 22px auto;
-    cursor: pointer;
 }
 
 
