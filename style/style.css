@@ -21,6 +21,7 @@ body{
 .logo{
     display: flex;
     align-items: center;
+    
 }
 
 .logo > div:first-child{
@@ -94,6 +95,7 @@ text-decoration: none;
     display: flex;
     max-width: 1140px;
     padding: 77px 130px;
+   
 }
 
 .txt{
@@ -122,19 +124,15 @@ text-decoration: none;
 }
 
 .visitors{
-    background: #def4f9;
-    /* mix-blend-mode: normal; */
-    /* opacity: 0.07; */
+    background: rgba(0,161,198,0.07);
+    mix-blend-mode: normal;
     padding: 110px 130px;
 }
 
 .text{
+    max-width: 555px;
     text-align: center;
     margin: 0 auto;
-}
-
-.visit{
-    max-width: 555px;
     color: #2B292D;
 }
 
@@ -174,29 +172,23 @@ text-decoration: none;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
     text-align: center;
     cursor: pointer;
-    }
-
-.item-visit:nth-child(2):hover{
-    /* color:white; */
-    background: #3040C4;
-    transition: 1s;
+    color: #2B292D;
 }
 
-.text-entertain:hover{
-    color:white;
+.item-visit:hover{
+    color: white;
+    background: #3040c4;
+    transition: 1s;
 }
 
 .item-visit > img{
     margin: 22px auto;
 }
 
-
 .text-name{
     font-size: 22px;
     font-weight: bold;
     line-height: 28px;
-    color: #2B292D;
-    text-align: center;
 }
 
 
@@ -234,7 +226,6 @@ text-decoration: none;
     grid-column: span 1;
     grid-row: span 2;
 }
-
 
 
     
