@@ -9,12 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="./wow/wow js/animate.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./wow/wow js/wow.min.js"></script>
     <link rel="stylesheet" href="./style/style.css">
+   
+
 </head>
 <body>
     <header class="header">
         <div class="container header-container">
-        <div class="logo">
+            <div class="logo">
                 <div>
                     <img src="./img/header/logo2.svg" alt="picture">
                 </div>
@@ -69,14 +75,51 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <div class="logos">
+        <section class="logose container">
+            <div class="logos bg-one">
                 <img src="./img/dr/1/Bitmap.png" alt="New York Times">
                 <img src="./img/dr/1/forbs.png" alt="Forbes">
                 <img src="./img/dr/1/apple.png" alt="Apple">
                 <img src="./img/dr/1/mash.png" alt="Mashable">
                 <img src="./img/dr/1/wsj.png" alt="WSJ">
                 <img src="./img/dr/1/google.png" alt="Google">
+            </div>
+        </section>
+        <section class="manage">
+            <div class="container manage-flex">
+                <div>
+                    <img class="animation-img" src="./img/dr/manage/manage.png" alt="">
+                </div>
+                <div class="manage__info">
+                    <p class="pre-title pre-title__red">
+                        Team Inbox
+                    </p>
+                    <h3 class="title wow swing">
+                        Manage conversations
+                    </h3>
+                    <p class="text-normal text-normal__manager">
+                        One place to manage and respond to all conversations with leads and users. Receive messages from leads.
+                    </p>
+                    <div class="box-white">
+                        <p class="box-white__text">
+                            “Great widgets. Great selection. Great design and easy to implement. Definitely a huge time saver for a web developer!”
+                        </p>
+                        <div class="box-white__logo">
+                            <img src="./img/dr/manage/Profile.svg" alt="">
+                            <div>    
+                                <p class="text-mini__bold">
+                                    Viella Malkovich
+                                </p>
+                                <p class="text-mini__logo">
+                                Creative Director at Johnson
+                                </p>
+                                <div class="box-white__line">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="busy">
@@ -98,7 +141,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./img/dr/busy/phone-hand.png" alt="">
+                    <img class="animation-img" src="./img/dr/busy/phone-hand.png" alt="">
                 </div>
             </div>
         </section>
@@ -139,10 +182,10 @@
         <section class="visitors">
             <div class="container">
                 <div class="text">
-                    <p class="pre-title">
+                    <p class="pre-title wow bounce">
                         Engage Visitors
                     </p>
-                    <h3 class="title title-visit">
+                    <h3 class="title title-visit wow bounce">
                         Understand your audience
                     </h3>
                     <p class="text-normal">
@@ -207,6 +250,135 @@
                 </div>
             </div>
         </section>
+        <section class="trial">
+            <div class="container trial-flex">
+                <div>
+                    <img class="animation-img" src="./img/dr/trial/free.png" alt="">
+                </div>
+                <div class="trial-flex__inform">
+                    <h3 class="title title-trial">
+                        Start your free trial.
+                    </h3>
+                    <p class="text txt">
+                        Get notified about company updates, news and blog posts. We hate spam.
+                    </p>
+                    <form action="">
+                        <input placeholder="Enter your email" class="input-trial" required type="email"> 
+                        <button class="button">
+                            Get Started
+                        </button>       
+                    </form>
+                    <span class="text-mini">
+                        Free 14-day trial · Easy setup · Cancel any time.
+                        <a href="">
+                            Check out Terms of Use.
+                        </a>
+                    </span>
+                </div>
+            </div>
+                
+    
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container footer-flex">
+            <div class="foundation">
+                <div class="logo">
+                    <div>
+                        <img src="./img/footer/Icon.svg" alt="picture">
+                    </div>
+                    <div> 
+                        <h4 class="logo-bold">
+                            Foundation
+                        </h4>
+                        <p class="logo-regular">
+                            Startup landing template
+                        </p> 
+                    </div>
+                </div>
+                <p class="logo-regular">
+                    Foundation is a website template for startups and small teams. It helps to build a website in no time.
+                </p>
+            </div>
+            <div class="product">
+                <h4 class="bold-footer">
+                    Product
+                </h4>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            Acquire Users
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            Content Marketing
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            Website Templates
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">Customer Management
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            Virtual Inbox
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="company">
+                <h4 class="bold-footer">
+                    Company
+                </h4>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            About Foundation
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            Brand Guidelines
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            Press Kit
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="footer-li">
+                        <a href="">
+                            Support
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        <div class="footer-hr">
+                        
+        </div>
+        </div>
+        <div class= "container footer-bottom-flex">
+
+        </div>
+    </footer>
 </body>
 </html>
