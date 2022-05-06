@@ -468,7 +468,6 @@ hr{
     mix-blend-mode: normal;
     opacity: 0.1;
     height: 1px;
-    /* width: 100%; */
 }
 
 .link-bottom > a:not(:last-child) {
