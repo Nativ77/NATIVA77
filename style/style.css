@@ -472,8 +472,9 @@ letter-spacing: -0.5px;
 }
 
 .footer-hr{
-    background: rgba(43, 41, 45, 0.1);
     height: 1px;
+    widht: 100%;
+    background: rgba(43, 41, 45, 0.1);
 }
 
 .link-bottom > a:not(:last-child) {
