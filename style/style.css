@@ -463,9 +463,16 @@ letter-spacing: -0.5px;
 } */
 
 hr{
-    color: rgba(43,41,45,0.1);
+    /* background: rgba(43,41,45,0.1); */
+    background: #2B292D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
     height: 1px;
-    width: 100%;
+    /* width: 100%; */
+}
+
+.link-bottom > a:not(:last-child) {
+    margin-right: 25px;
 }
 
 .footer-bottom-flex{
@@ -474,6 +481,9 @@ hr{
     margin: 15px 0;
 }
 
+.icon-bottom > img:not(:last-child) {
+    margin-right: 15px;
+}
 
 
 /* footer{
