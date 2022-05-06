@@ -458,13 +458,9 @@ letter-spacing: -0.5px;
 
 .link-bottom > a{
     size: 14px;
-/*     line-height: 22px; */
+    line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
     text-decoration: none;
-}
-
-.footer-black-link > a{
-    text-decoration:none;
 }
 
 .footer-black-link > a:first-child{
@@ -488,8 +484,12 @@ letter-spacing: -0.5px;
 }
 
 
-.icon-bottom > img:not(:last-child) {
+.icon-bottom > a:not(:last-child) {
     margin-right: 15px;
+}
+
+.footer-black-link, .icon-bottom > a{
+    text-decoration:none;
 }
 
 
