@@ -475,6 +475,7 @@ letter-spacing: -0.5px;
 
 .link-bottom > a:not(:last-child) {
     margin-right: 25px;
+    text-decoration:none;
 }
 
 .footer-bottom-flex{
@@ -486,12 +487,8 @@ letter-spacing: -0.5px;
 
 .icon-bottom > a:not(:last-child) {
     margin-right: 15px;
-}
-
-.footer-black-link, .icon-bottom > a{
     text-decoration:none;
 }
-
 
 /* footer{
     display: none;
