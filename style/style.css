@@ -278,18 +278,23 @@ letter-spacing: -0.5px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
     text-align: center;
     cursor: pointer;
+    transition-duration: 2s;
+    transition-timing-function: linear;
     color: #2B292D;
+}
+
+
+.item-visit > img{
+    margin: 22px auto;
 }
 
 .item-visit:hover{
     color: white;
     background: #3040c4;
-    transition: 1s;
+    transition-duration: 2s;
+    transition-timing-function: linear;
 }
 
-.item-visit > img{
-    margin: 22px auto;
-}
 
 .text-name{
     font-size: 22px;
