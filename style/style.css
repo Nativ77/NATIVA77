@@ -810,7 +810,6 @@ letter-spacing: -0.5px;
         grid-row-gap: 25px;
 }
     
-
     .busy{
         padding: 35px 0;
     }
@@ -880,7 +879,15 @@ letter-spacing: -0.5px;
         max-width: 230px;
         text-align: center;
     }
-    
+    .manage {
+        padding: 35px 0;
+    }
+
+    .manage__info{
+        max-width: 266px;
+        text-align: left;
+    }
+
     .input-trial, .button__trial{
         width: 230px;
       }
