@@ -494,7 +494,6 @@ letter-spacing: -0.5px;
     margin: 15px 0;
 }
 
-
 .icon-bottom > a:not(:last-child) {
     margin-right: 15px;
     text-decoration: none;
@@ -503,11 +502,6 @@ letter-spacing: -0.5px;
 .footer-list-adapt{
     display: none;
 }
-
-
-/* footer{
-    display: none;
-} */
 
 @keyframes img{
     0%{
