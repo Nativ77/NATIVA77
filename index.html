@@ -9,13 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- <link rel="stylesheet" href="./wow/wow js/animate.css"> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./wow/wow js/wow.min.js"></script>
     <link rel="stylesheet" href="./style/style.css">
-   
-
+    <link rel="stylesheet" href="./wow/animate.css">
 </head>
 <body>
     <header class="header">
@@ -29,29 +24,38 @@
                         Foundation
                     </p>
                     <p class="logo-regular">
-                        Startup landing template
+                        Startup landing template 
                     </p> 
                 </div>
             </div>
-            <nav class="header-nav">
-                <ul>
-                    <li class="header-li">
-                        <a href="">
-                            Home
-                        </a>
-                    </li>
-                    <li class="header-li">
-                        <a href="">
-                            Stories
-                        </a>
-                    </li>
-                </ul>
-                <div>
-                    <button class="button">
-                        Get Started
-                    </button>
+            <div class="menu">
+                <input class="checkbox" type="checkbox">
+                <div class="check-wrapper">
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
+                    <div class="check"></div>
                 </div>
-            </nav>            
+                <nav class="header-nav menu-all">
+                    <ul>
+                        <li class="header-li">
+                            <a href="">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header-li">
+                            <a href="">
+                                Stories
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="button">
+                            Get Started
+                        </button>
+                    </div>
+                </nav>   
+            </div>
         </div>
     </header>
     <main>
@@ -88,7 +92,7 @@
         <section class="manage">
             <div class="container manage-flex">
                 <div>
-                    <img class="animation-img animation-img__one" src="./img/dr/manage/manage.png" alt="">
+                    <img class="animation-img" src="./img/dr/manage/manage.png" alt="">
                 </div>
                 <div class="manage__info">
                     <p class="pre-title pre-title__red">
@@ -224,6 +228,65 @@
                         </p>
                     </div>
 
+                </div>
+            </div>
+        </section>
+        <section class="hiring">
+            <div class="container">
+                <div class="hiring-all">
+                    <p class="title">
+                        We’re hiring
+                    </p>
+                    <p class="text-normal">
+                        We’re a team of lifelong learners. We’re equal parts left and right brained.
+                    </p>
+                    <div class="button-hiring">
+                        <button class="button">
+                            More about Company
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about-items__container">
+                    <div class="about-items">
+                        <div>
+                            <p class="about-position about-position__bold">
+                                Front-End Developer
+                            </p>
+                            <p class="about-position">
+                                Los Angeles / Remote
+                            </p>
+                            <p class="about-icon">></p>
+                        </div>
+                        <p>We are a team of lifelong learners. We are equal parts left and right brained.</p>
+                    </div>
+                    <div class="about-items">
+                        <div>
+                            <p class="about-position about-position__bold">
+                                Community Manager
+                            </p>
+                            <p class="about-position">
+                                New York / Full-Time
+                            </p>
+                            <p class="about-icon">></p>
+                        </div>
+                        <p>We are a team of lifelong learners. We are equal parts left and right brained.</p>
+                    </div>
+                    <div class="about-items">
+                        <div>
+                            <p class="about-position about-position__bold">
+                                UX/UI Designer
+                            </p>
+                            <p class="about-position">
+                                New York / Full-Time
+                            </p>
+                            <p class="about-icon">></p>
+                        </div>
+                        <p>We are a team of lifelong learners. We are equal parts left and right brained.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -390,5 +453,12 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="./wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
