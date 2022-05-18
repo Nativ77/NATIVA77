@@ -273,7 +273,6 @@ text-decoration: none;
     color: #3142C6;    
 }
 
-
 .title-visit{
 text-align: center;
 letter-spacing: -0.5px;
@@ -303,7 +302,6 @@ letter-spacing: -0.5px;
     transition-timing-function: linear;
     color: #2B292D;
 }
-
 
 .item-visit > img{
     margin: 22px auto;
@@ -378,9 +376,8 @@ letter-spacing: -0.5px;
     display: none;
 }
 
-
 .active{
-    transform: rotate(90 eg);
+    transform: rotate(90deg);
     transition: 500ms;
 }
 
