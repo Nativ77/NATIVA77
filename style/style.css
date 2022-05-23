@@ -3,6 +3,9 @@ body{
 }
 
 .header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
     background-color: #F3C6BD;
     padding: 30px 0;
 }
@@ -18,9 +21,11 @@ body{
     align-items: center;
 }
 
+
 .logo{
     display: flex;
     align-items: center;
+
 }
 
 .logo > div:first-child{
@@ -42,6 +47,7 @@ body{
 
 .header-nav{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -64,8 +70,8 @@ text-decoration: none;
     font-weight: bold;
 }
 
-.header-nav > div{
-    margin-left: 75px;
+.header-nav > ul{
+    margin-right: 75px;
 }
 
 .check{
@@ -105,7 +111,46 @@ text-decoration: none;
     color:#3040C4;
     transition: transform .2s ease-in-out;;
     font-weight: bold;
+}
 
+.button-white{
+    background: white;
+    color: #3040C4;
+}
+
+.build-title{
+    max-width: 754px;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+    margin-bottom: 35px;
+}
+
+.build-text{
+    margin-bottom: 60px;
+}
+
+.header-wrapper > div:first-child{
+    z-index: 1;
+}
+
+.header-wrapper{
+    position: relative;
+    display: flex;
+    padding-bottom: 80px;
+    /* justify-content: space-between; */
+
+}.build-image{
+    position: absolute;
+    top: 0;
+    right: -75px;
+    z-index: 0;
+}
+
+.header-text{
+    max-width: 450px;
 }
 
 .pre-logo{
@@ -128,6 +173,18 @@ text-decoration: none;
     font-weight: bold;
 }
 
+.post-header > div:not(:last-child){
+    margin-right: 30px;
+}
+
+.post-header > div{
+    max-width: 555px;
+}
+
+.logos-all{
+    background: #F2F2F2;
+}
+
 .logos{
     display:flex;
     justify-content: space-between;
@@ -135,12 +192,77 @@ text-decoration: none;
     padding: 30px 0 117px 0;
 }
 
-.post-header > div:not(:last-child){
-    margin-right: 30px;
+.features{
+    background: #F2F2F2;
+    padding: 10px 0 100px 0;
+    position: relative;
 }
 
-.post-header > div{
-    max-width: 555px;
+.features-block{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pre-title__green{
+    color: #009B4D;
+}
+
+.easily{
+    display: block;
+    max-width: 460px;
+ }
+
+ .icon-img-next{
+     display: none;
+ }
+
+.icon-img{
+    position: absolute;
+    left: 0%;
+    right: 91.11%;
+    top: 42.86%;
+    bottom: 29.57%;
+}
+
+.icon-feature > svg{
+    margin-right: 15px;
+} 
+
+
+.feature-items > p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #2B292D;
+    display: none;
+}
+
+.feature-items{
+    max-width: 460px;
+    border-bottom: 1px solid rgba(43,41,45,0.15);
+    padding: 5px 0 20px 0;
+}
+
+.space{
+    position: absolute;
+    right: 0;
+    top: 11px;
+}
+
+.feature-items__blue-image{
+    fill: #3142C6;
+    transition: 1s;
+}
+
+.change-color{
+    color: #3142C6; 
+    transition: 1s;
+}
+
+.line-color{
+   border-bottom: 3px solid #3142C6;
+   opacity: 1;
+   transition: 1s;
 }
 
 .visitors{
@@ -241,6 +363,7 @@ text-decoration: none;
     font-size: 56px;
     line-height: 56px;
     font-weight: bold;
+    letter-spacing: -0.5px;
     color: #2B292D;
     margin: 0 auto;
 }
@@ -273,6 +396,7 @@ text-decoration: none;
     color: #3142C6;    
 }
 
+
 .title-visit{
 text-align: center;
 letter-spacing: -0.5px;
@@ -282,6 +406,7 @@ letter-spacing: -0.5px;
     font-size: 24px;
     line-height: 34px;
     margin: 30px 0;
+    color: #2B292D;
 }
 
 .wrapper-visit{
@@ -302,6 +427,7 @@ letter-spacing: -0.5px;
     transition-timing-function: linear;
     color: #2B292D;
 }
+
 
 .item-visit > img{
     margin: 22px auto;
@@ -358,23 +484,25 @@ letter-spacing: -0.5px;
 .about-position{
     font-size: 18px;
     line-height: 24px;
-    /* color: #2B292D; */
 }
 
 .about-position__bold{
     font-size: 22px;
     line-height: 28px;
-    color: #2B292D;
     font-weight: bold;
 }
 
 .about-items > p{
     font-size: 18px;
     line-height: 24px;
-    /* color: #2B292D; */
     margin-top: 20px;
     display: none;
 }
+
+.about-icon{
+    font-size: 22px;
+}
+
 
 .active{
     transform: rotate(90deg);
@@ -382,9 +510,8 @@ letter-spacing: -0.5px;
 }
 
 .toggleColor{
-    color: white;
+    color: white
 }
-
 
 .toggleBg{
     /* color: white; */
@@ -637,6 +764,31 @@ letter-spacing: -0.5px;
     .text-info{
         max-width: 320px;
     }
+
+    .icon-img-next{
+        display: block;
+    }
+
+    .features-block{
+        align-items: center;
+    }
+
+    .icon-img-next > img{
+        width: 100%;
+    }
+
+    .space{
+        position: static;
+    }
+
+    .space > img{
+        width: 100%;
+    }
+
+    .icon-img{
+        position: static;
+        margin: 10% 40%;
+    }
 }
 
 @media (max-width: 1090px){
@@ -645,10 +797,15 @@ letter-spacing: -0.5px;
         display: none;
     } */
 
+   
+    .icon-img{
+        display: none;
+    }
+
     .container{
         max-width: 750px;
     }
-
+    
     .header-nav{
         display: none;
     }
@@ -702,16 +859,33 @@ letter-spacing: -0.5px;
 
     ul{
         margin-top: 10%;
-        text-align: center;
     }
 
     .header-li{
        display: block;
        margin-right: 0;
        margin-bottom: 20px;
-
     }
-    
+
+     .features{
+        display: flex;
+    }   
+     
+    .header-wrapper{
+        display: block;
+        position: static;
+        padding-bottom:0 ;
+    }
+
+    .build-image{
+        position: static;
+        margin-top: 30px;
+    }
+
+    .build-image >img{
+        width: 100%;
+    }
+
     .busy-flex, .manage-flex, .nfo-flex, .trial-flex{
         flex-direction: column;
         text-align: center;
@@ -811,7 +985,7 @@ letter-spacing: -0.5px;
         margin-bottom: 15px;
     }
 
-    .title{
+    .title, .build-title{
         font-size: 52px;
         line-height: 52px;
     }
@@ -932,6 +1106,18 @@ letter-spacing: -0.5px;
         padding: 10px 0 35px 0;
     }
 
+    .icon-img-next{
+        display: none;
+    }
+
+    .icon-img{
+        display: block;
+    }
+
+    .icon-img > img{
+        width: 100%;
+    }
+
     .manage{
         padding: 35px 0 75px 0;
     }
@@ -972,7 +1158,7 @@ letter-spacing: -0.5px;
         padding: 35px 0;
     }
 
-    .title{
+    .title, .build-title{
         font-size: 40px;
         line-height: 40px;
     }
