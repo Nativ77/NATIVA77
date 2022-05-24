@@ -232,7 +232,6 @@ text-decoration: none;
     margin-right: 15px;
 } 
 
-
 .feature-items > p{
     font-size: 18px;
     line-height: 26px;
@@ -517,7 +516,6 @@ letter-spacing: -0.5px;
 }
 
 .toggleBg{
-    /* color: white; */
     background: #3040c4;
 }
 
@@ -795,7 +793,7 @@ letter-spacing: -0.5px;
     .space > img{
         width: 100%;
     }
-
+}
 @media (max-width: 1090px){
    
     /* .header{

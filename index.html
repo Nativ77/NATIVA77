@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/modal.css">
     <link rel="stylesheet" href="./wow/animate.css">
 </head>
 <body>
@@ -72,7 +73,7 @@
                         <button class="button">
                             Get Started
                         </button>
-                        <button class="button button-white">
+                        <button id="modal-button" class="button button-white">
                             Learn More
                         </button>
                     </div>
@@ -322,6 +323,22 @@
                 </div>
             </div>
         </section>
+        <section class="logos-all">
+            <div class="container logos bg-one">
+                <img src="./img/dr/1/Bitmap.png" alt="New York Times">
+                <img src="./img/dr/1/forbs.png" alt="Forbes">
+                <img src="./img/dr/1/apple.png" alt="Apple">
+                <img src="./img/dr/1/mash.png" alt="Mashable">
+                <img src="./img/dr/1/wsj.png" alt="WSJ">
+                <img src="./img/dr/1/google.png" alt="Google">
+            </div>
+        </section>
+        <section class="trust">
+            <div class="container">
+
+            </div>
+
+        </section>
         <section class="hiring">
             <div class="container">
                 <div class="hiring-all">
@@ -436,6 +453,24 @@
                 
     
         </section>
+        <div class="modal-overlay">
+            <div class="modal">
+                <div class="modal-content">
+                    <div>
+                        <img src="./img/dr/trial/free.png" alt="">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto fugiat voluptatum eveniet odit praesentium?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto fugiat voluptatum eveniet odit praesentium?
+                    </p>
+                </div>
+                <p class="close">
+                    x
+                </p>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container footer-info">
@@ -546,6 +581,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./script/script.js"></script>
+    <script src="./script/modal.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script src="./wow/wow.min.js"></script>
     <script>
