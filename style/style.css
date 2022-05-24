@@ -3,11 +3,14 @@ body{
 }
 
 .header{
+    background-color: #F3C6BD;
+    padding: 30px 0;
+}
+
+.header-sticky{
     position: sticky;
     top: 0;
     z-index: 2;
-    background-color: #F3C6BD;
-    padding: 30px 0;
 }
 
 .container{
@@ -1095,7 +1098,7 @@ letter-spacing: -0.5px;
     .icon-img{
         display: block;
         position: static;
-        margin: 10% 40%;
+        margin: 10% 40%; 
     }
 
     .icon-img > img{
