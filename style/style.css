@@ -443,7 +443,7 @@ letter-spacing: -0.5px;
 }
 
 .hiring{
-    background-color:#F2F2F2;
+   background-color:#F2F2F2;
    padding-top: 100px;
 }
 
@@ -889,6 +889,14 @@ letter-spacing: -0.5px;
         width: 100%;
     }
 
+    .manage{
+        padding: 70px 0;
+    }
+
+    .busy{
+        padding: 40px 0;
+    }
+
     .busy-flex, .manage-flex, .nfo-flex, .trial-flex{
         flex-direction: column;
         text-align: center;
@@ -923,6 +931,10 @@ letter-spacing: -0.5px;
         row-gap: 35px;
         margin-top: 75px;
     } 
+
+    .hiring{
+        padding-top: 50px;
+    }
     
 }
 
@@ -1042,6 +1054,10 @@ letter-spacing: -0.5px;
         display: none;
     }
 
+    .hiring{
+        padding-top: 50px;
+    }
+
     .footer{
         padding: 30px 0 15px 0;
     }
@@ -1128,7 +1144,6 @@ letter-spacing: -0.5px;
         padding: 10px 0 35px 0;
     }
 
-   
     .manage{
         padding: 35px 0 75px 0;
     }
@@ -1148,6 +1163,10 @@ letter-spacing: -0.5px;
         row-gap: 15px;
         margin-top: 45px;
     } 
+
+    .hiring{
+        padding-top: 25px;
+    }
 }
 
 @media (max-width: 480px){

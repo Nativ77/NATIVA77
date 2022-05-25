@@ -1,0 +1,133 @@
+.trust{
+    background: #F2F2F2;
+    position: relative;
+    padding-bottom: 70px;
+}
+.single-item{
+    max-width: 1140px;
+    text-align: center;
+}
+
+.title-single{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #3142C6;
+}
+/* 
+.item-beige > p:nth-child(2), .item-rosy > p:nth-child(2), .item-violet > p:nth-child(2){
+    max-width: 750px;
+    margin: 30px auto;
+} */
+
+.text-slider{
+    max-width: 750px;
+    margin: 30px auto;
+}
+
+.item, .item-rosy, .item-violet{
+    padding: 30px 10px;
+    border-radius: 10px;
+
+}
+
+.item-rosy{
+    background: bisque;
+    
+}
+
+.item-violet{
+    background: rgb(238, 205, 205);
+    
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #3142C6;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    opacity: 0.5;
+    color: #3142C6;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #3142C6
+}
+
+/* .container-slider{
+    
+} */
+
+.carusel-image{
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+
+@media (max-width: 1090px){
+    
+    .container{
+        max-width: 750px;
+    }
+
+    .trust{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;       
+        padding-bottom: 20px;
+    } 
+
+     .carusel-image{
+       position: static;
+       margin: 20px auto;
+     }
+
+
+
+    .title-single{
+        font-size: 22px;
+        line-height: 26px;
+     }
+
+     .text-slider{
+        font-size: 22px;
+        line-height: 30px;
+     }
+
+     
+}
+
+@media (max-width: 800px){
+    
+    .container{
+        max-width: 500px;
+    }
+    .title-single{
+        font-size: 20px;
+        line-height: 24px;
+       
+    }
+}
+
+@media (max-width:480px){
+    
+    .container{
+        max-width: 310px;
+    }
+    .title-single{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .text-slider{
+        font-size: 16px;
+        line-height: 26px;
+     }
+
+     .slick-dots li button:before {
+        font-size: 8px;
+    }
+}
+
