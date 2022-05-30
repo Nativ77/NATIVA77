@@ -749,10 +749,19 @@ letter-spacing: -0.5px;
     }
 }
 
+@media (max-width: 1300px){
+    .container{
+        max-width: 1150px;
+}
+
 @media (max-width: 1200px){
     .container{
         max-width: 1050px;
+    }   
+    .build-image > img{
+        width: 100%;
     }
+}
 
     .header{
         padding: 15px 0;
@@ -822,6 +831,18 @@ letter-spacing: -0.5px;
     }
     .menu{
         position: relative;
+    }
+
+    .header-li > a{
+        margin: 20px auto;
+    }
+
+    .header-li:not(:last-child) {
+        margin: 50px 0 20px 0;
+    }
+
+    .header-nav > ul{
+        margin: 20px auto;
     }
 
     .checkbox{

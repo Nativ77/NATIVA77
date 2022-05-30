@@ -40,3 +40,17 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+#up{
+position: fixed;
+bottom: 50px;
+right: 50px;
+background: #F3C6BD;
+padding: 12px 15px;
+border-radius: 50%;
+}
+
+i{
+    color: white;
+}
+
